@@ -1399,7 +1399,7 @@ dependencies = [
 
 [[package]]
 name = "iroh-mem-transport"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "iroh",
  "iroh-base",
