@@ -1,5 +1,11 @@
 # iroh-mem-transport
 
+[![Crates.io](https://img.shields.io/crates/v/iroh-mem-transport.svg)](https://crates.io/crates/iroh-mem-transport)
+[![Documentation](https://docs.rs/iroh-mem-transport/badge.svg)](https://docs.rs/iroh-mem-transport)
+[![CI](https://github.com/legra-ai/iroh-mem-transport/actions/workflows/ci.yml/badge.svg)](https://github.com/legra-ai/iroh-mem-transport/actions/workflows/ci.yml)
+[![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](LICENSE-MIT)
+[![Downloads](https://img.shields.io/crates/d/iroh-mem-transport.svg)](https://crates.io/crates/iroh-mem-transport)
+
 In-memory custom transport for [iroh](https://github.com/n0-computer/iroh):
 endpoints in the **same process** connect over in-memory datagram queues as a
 native iroh path. QUIC still multiplexes, encrypts, and authenticates exactly
@@ -7,7 +13,7 @@ as it would over UDP — but no socket is bound, no file is created, and nothing
 touches the network stack.
 
 Sibling of
-[`iroh-ipc-transport`](https://github.com/dataroadinc/iroh-ipc-transport)
+[`iroh-ipc-transport`](https://github.com/legra-ai/iroh-ipc-transport)
 (same-machine peers over a Unix socket); this crate is same-**process** peers
 over shared memory.
 
@@ -76,4 +82,7 @@ Requires iroh's `unstable-custom-transports` feature (this crate enables it).
 
 ## License
 
-MIT or Apache-2.0, at your option.
+Copyright © 2026 DataRoad Inc, Delaware, USA, trading as Legra.
+
+Licensed under either the [MIT license](LICENSE-MIT) or the
+[Apache License, Version 2.0](LICENSE-APACHE), at your option.
