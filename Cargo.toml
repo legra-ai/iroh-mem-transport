@@ -23,3 +23,6 @@ tracing = "0.1"
 [dev-dependencies]
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "time", "io-util"] }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[build-dependencies]
+rhusky = "0.0.6"
