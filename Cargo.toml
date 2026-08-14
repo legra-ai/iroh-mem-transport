@@ -1,12 +1,12 @@
 [package]
 name = "iroh-mem-transport"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 rust-version = "1.85"
 license = "MIT OR Apache-2.0"
 description = "In-memory custom transport for iroh — endpoints in the same process connect over in-memory datagram queues as a native iroh path, so QUIC multiplexes and authenticates with no sockets, files, or network at all"
-repository = "https://github.com/dataroadinc/iroh-mem-transport"
-homepage = "https://github.com/dataroadinc/iroh-mem-transport"
+repository = "https://github.com/legra-ai/iroh-mem-transport"
+homepage = "https://github.com/legra-ai/iroh-mem-transport"
 keywords = ["iroh", "p2p", "transport", "in-memory", "testing"]
 categories = ["network-programming"]
 readme = "README.md"
